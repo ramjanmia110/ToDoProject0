@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container_box{
+    width: 500px;
+    height: auto;
+    background: rgb(134, 140, 235);
+    padding: 20px;
+}
+
+.container_box h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: 20px 0;
+}
+
+.input_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container_box input {
+	font-size: 14px;
+	outline: none;
+	border: none;
+	padding: 6px;
+	width: 60%;
+	border-radius: 4px;
+}
+
+.container_box textarea {
+	font-size: 14px;
+	border: none;
+	outline: none;
+	width: 60%;
+	min-height: 48px;
+	padding: 6px;
+	border-radius: 4px;
+	resize: none;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 0;
+}
+
+#add_btn {
+	border: none;
+	outline: none;
+	font-size: 16px;
+	padding: 10px;
+	width: 214%;
+	border-radius: 6px;
+	background: blue;
+	color: white;
+    cursor: pointer;
+}
+
+
+#update_btn {
+    border: none;
+	outline: none;
+	font-size: 16px;
+	padding: 10px;
+	width: 214%;
+	border-radius: 6px;
+	background: blue;
+	color: white;
+    margin-bottom: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+.text_Area {
+	border: 1px solid white;
+	padding: 10px;
+	margin: 20px 0;
+	border-radius: 4px;
+}
+
+.text_Area h2{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin: 10px 0;
+}
+
+.text_Area p{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.button_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#edit_btn {
+	border: none;
+	outline: none;
+	background: #b01515;
+	color: white;
+	font-size: 14px;
+	padding: 6px 20px;
+	border-radius: 4px;
+	width: 18%;
+    cursor: pointer;
+}
+
+
+#delet_btn {
+	border: none;
+	outline: none;
+	background: #b01515;
+	color: white;
+	font-size: 14px;
+	padding: 6px 20px;
+	border-radius: 4px;
+    width: 18%;
+    cursor: pointer;
+}
+
